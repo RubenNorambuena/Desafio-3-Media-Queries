@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/978bde0a91.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets\css\normalize.css">
+    <link rel="stylesheet" href="assets\css\style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <title>Media Queries</title>
+</head>
+<body>
+<div class="container">
+    <nav>
+
+      <div class="titulo">  
+        <div class="icono">
+          <i class="fa-solid fa-charging-station"></i>      
+          <div class="enunciado"><h4>Autos Electricos</h4>
+          
+          </div>
+        </div>
+      </div>
+
+       <input type="checkbox" id="check">
+       <label for="check" class="checkbtn"></label>
+       <i class="fa-solid fa-bars fa-xl"></i>
+       </label>  
+
+      <ul>
+        <li><a class="active" href="#">Inicio</a></li>
+        <li><a href="#">Catálogo</a></li>
+        <li><a href="#">Ofertas</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <section>
+        <div class="navegacion">
+            <form>
+                <label for="Precio">Ordenar por:</label>
+                <select name="ordenar_por" id="ordenar_por">
+                <option value="precio">Precio</option>
+                </select>
+            </form>
+        </div>
+    </section>
+
+    <main>
+        <div class="container-main">
+        <div class="coin-card">
+          <img src="assets\img\840_560.jpg" alt="Tether">
+          <h3>Mercedes Benz - EQC</h3>
+          <button type="btn-primary">Ver más</button>
+        </div>
+
+        <div class="coin-card">
+          <img src="assets\img\Audi-E-Tron-GT.jpg" alt="Tether">
+          <h3>Audi E - Tron GT</h3>
+          <button type="btn-primary">Ver más</button>
+        </div>
+                
+        <div class="coin-card">
+          <img src="assets\img\Cybertruck-11.jpg" alt="Tether">
+          <h3>Tesla - Cybertruck</h3>
+          <button type="btn-primary">Ver más</button>
+        </div>
+
+        <div class="coin-card">
+          <img src="assets\img\Hyundai Kona Electric.jpg" alt="Tether">
+          <h3>Hyundai - Kona</h3>
+          <button type="btn-primary">Ver más</button>
+        </div>
+
+        <div class="coin-card">
+          <img src="assets\img\kia-ev9.jpeg" alt="Tether">
+          <h3>Kia - ev9</h3>
+          <button type="btn-primary">Ver más</button>
+        </div>
+
+        <div class="coin-card">
+          <img src="assets\img\model-s-blauw-weg.jpg" alt="Tether">
+          <h3>Tesla - S</h3>
+          <button type="btn-primary">Ver más</button>
+        </div> 
+
+        <div class="coin-card">
+          <img src="assets\img\Polestar-2-Mejores-Autos-Electricos-EV.jpg" alt="Tether">
+          <h3>Polestar - 2</h3>
+          <button type="btn-primary">Ver más</button>
+        </div>
+
+        <div class="coin-card">
+          <img src="assets\img\BMW-i4-Mejores-Autos-Electricos-EV.jpg" alt="Tether">
+          <h3>BMW - i4</h3>
+          <button type="btn-primary">Ver más</button>
+        </div> 
+        
+        <div class="pagination">
+          <a href="#">&laquo;</a>
+          <a href="#" class="active">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">4</a>
+          <a href="#">&raquo;</a>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="iconos">
+          <i class="fa-brands fa-facebook fa-xl"></i>
+          <i class="fa-brands fa-instagram fa-xl"></i>
+          <h4>Todos los derechos reservados</h4>
+        </div>
+    </footer>
+
+
+
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+<!-- 
+
+    <nav>
+        <div class="titulo">  
+        <div class="icono">
+        <i class="fa-solid fa-car"></i>
+        <div class="iconos">
+        <i class="fa-solid fa-caret-up fa-2xs"></i>
+        </div>
+      </div>
+      <div class="enunciado"><h4>Autos Electricos</h4></div>
+        </div>
+
+        <div class="navegacion">
+        <i class="fa-solid fa-bars fa-xl"></i>
+       </div>
+
+        <ul>
+          <li><a href="#home">Inicio</a></li>
+          <li><a href="#news">Catalogo</a></li>
+          <li><a href="#contact">Ofertas</a></li>
+          <li><a href="#about">Contacto</a></li>
+        </ul>
+        
+    </nav>
+
+
+
+
+
+
+  <aside>
+      <div class="busqueda">
+        <input type="text" placeholders="Precios">
+        <button type="submit"><i class="fa-solid fa-angle-down"></i></button>
+      </div>
+  
+
+
+  </aside>
+ 
+ 
+ 
+    <main>
+        <div class="tarjeta">
+          <img src="./assets/img/840_560.jpg" alt="img" width="100%" height="auto">  
+          <br>
+          <h4>Mercedes Benz - EQC</h4>  
+          <button class="btn-primary">Ver más</button>
+        </div>
+        <br>
+        <div class="tarjeta">
+          <img src="./assets/img/840_560.jpg" alt="img" width="350" height="250">  
+          <br>
+          <h4>Mercedes Benz - EQC</h4>  
+          <button class="btn-primary">Ver más</button>
+        </div>
+        <br>
+        <div class="pagination">
+          <a href="#">&laquo;</a>
+          <a href="#" class="active">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+          <a href="#">&raquo;</a>
+        </div>
+  
+    </main>
+
+
+
+
+    <footer>
+      <i class="fa-brands fa-facebook fa-xl"></i>
+      <i class="fa-brands fa-instagram fa-xl"></i>
+      <h4>Todos los derechos reservados</h4>
+    </footer>
+    </div>
+    
+
+</body>
+</html>
+ -->
+
+
+  <!-- <nav>
+
+  <div class="nav-principal">
+    <div class="titulo">
+    <h4>Autos Electricos</h4>
+  </div>
+    <div class="iconos">
+    <div class="icono1">
+    <i class="fa-solid fa-car"></i>
+    </div>
+    <div class="icono2">
+    <i class="fa-solid fa-caret-up fa-2xs" ></i>
+  </div>
+  </div>
+  </div>
+
+
+<div class="navegacion">
+  <div class="Barras">
+  <i class="fa-solid fa-bars fa-xl"></i>
+  </div>
+
+</nav>
+
+
+<aside>
+  <div class="topnav">
+    <a class="active" href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <p>Ordenar Por:</p>
+    <input type="text" placeholder="Precio">
+    <i class="fa-solid fa-caret-down"></i>
+  </div>
+</aside>
+  
+
+<main>
+      <div class="principal">
+
+        <div class="seccion-usuarios">
+            <img src="./assets/img/840_560.jpg" alt="img">  
+            <div class="ver-mas">
+              <h4>Mercedes Benz - EQC</h4>  
+            <button class="btn-primary">Ver más</button>
+            </div> 
+          </div>
+
+          <div class="seccion-usuarios">
+            <img src="./assets/img/Audi-E-Tron-GT.jpg" alt="img">  
+            <div class="ver-mas">
+              <h4>Audi E - Tron GT</h4>  
+            <button class="btn-primary">Ver más</button>
+            </div> 
+          </div>
+
+          <div class="seccion-usuarios">
+            <img src="./assets/img/Cybertruck-11.jpg" alt="img">  
+            <div class="ver-mas">
+              <h4>Tesla - Cybertruck</h4>  
+            <button class="btn-primary">Ver más</button>
+            </div> 
+          </div>
+
+          <div class="seccion-usuarios">
+            <img src="./assets/img/Hyundai Kona Electric.jpg" alt="img">  
+            <div class="ver-mas">
+              <h4>Hyundai - Kona Electric</h4>  
+            <button class="btn-primary">Ver más</button>
+            </div> 
+          </div>
+
+          <div class="seccion-usuarios">
+            <img src="./assets/img/kia-ev9.jpeg" alt="img">  
+            <div class="ver-mas">
+              <h4>kia - ev9</h4>  
+            <button class="btn-primary">Ver más</button>
+            </div> 
+          </div>
+
+          <div class="seccion-usuarios">
+            <img src="./assets/img/model-s-blauw-weg.jpg" alt="img">  
+            <div class="ver-mas">
+              <h4>Tesla - Model S</h4>  
+            <button class="btn-primary">Ver más</button>
+            </div> 
+          </div>
+      </div>
+
+      <div class="pagination">
+        <a href="#">&laquo;</a>
+        <a href="#" class="active">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">&raquo;</a>
+      </div>
+    </main>
+
+  
+      <footer>
+        <i class="fa-brands fa-facebook fa-xl"></i>
+        <i class="fa-brands fa-instagram fa-xl"></i>
+        <h4>Todos los derechos reservados</h4>
+      </footer>
+
+
+
+
+  
+
+    </div>
+    
+  -->
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <aside>
+<section class="body-chat">
+<div class="seccion-usuarios">
+<div class="seccion-lista-usuarios">
+
+  
+<div class="usuario usuario-principal">
+  <div class="avatar">
+    <img src="./assets/img/1 Maria.jpg" alt="img">
+  </div>
+    <div class="cuerpo"> 
+    <span>Maria</span>
+    <span>Activa ahora</span>
+    </div>
+  <div class="opciones">
+    <span><i class="fa-regular fa-message fa-xl"></i></span>
+    <span><i class="fa-solid fa-bars fa-xl"></i></span>
+  </div>
+  </div>
+  
+
+
+
+
+<div class="nuevo-chat-div usuario">
+  <button class="btn-primary">Nuevo Chat</button>
+</div>
+
+<div class="usuario">
+  <div class="avatar">
+  <img src="./assets/img/2 Juanita.jpg" alt="img">
+  </div>
+<div class="cuerpo">
+<span>Juanita</span>
+<p>At vero eos et accusa</p>
+</div>
+</div>
+
+<div class="usuario">
+  <div class="avatar">
+  <img src="./assets/img/3 Alberto.jpg" alt="img">
+  </div>
+<div class="cuerpo">
+<span>Alberto</span> 
+<p>blanditiis praesentium</p>
+</div>
+</div>
+
+<div class="usuario">
+  <div class="avatar">
+  <img src="./assets/img/4 Ignacio.jpg" alt="img">
+  </div>
+<div class="cuerpo">
+<span>Ignacio</span>
+<p>officiis debitis aut</p>
+</div>
+</div>
+
+<div class="usuario">
+  <div class="avatar">
+  <img src="./assets/img/5 Cristian.jpg" alt="img">
+  </div>
+<div class="cuerpo">
+<span>Cristian</span>
+<p>Nam libero tempore</p>
+</div>
+</div>
+
+<div class="usuario">
+  <div class="avatar">
+  <img src="./assets/img/6 María José.jpg" alt="img">
+  </div>
+<div class="cuerpo">
+<span>María José</span>
+<p>impedirt quo minus id</p>
+</div>
+</div>
+
+<div class="usuario">
+  <div class="avatar">
+  <img src="./assets/img/7 Gonzalo.jpg" alt="img">
+  </div>
+<div class="cuerpo">
+<span>Gonzalo</span>
+<p>At vero eos te accusa</p>
+</div>
+</div>
+
+<div class="usuario">
+  <div class="avatar">
+  <img src="./assets/img/8 Juan Pablo.jpg" alt="img">
+  </div>
+<div class="cuerpo">
+<span>Juan Pablo</span>
+<p>necessitatibus saepe</p>
+</div>
+</div>
+
+<div class="usuario">
+  <div class="avatar">
+  <img src="./assets/img/9 Magdalena.jpg" alt="img">
+  </div>
+<div class="cuerpo">
+<span>Magdalena</span>
+<p>ut et voluptates</p>
+</div>
+</div>
+
+</div>
+</div>
+
+</aside>
+
+<main class="bg-primary">
+  <img src="./assets/img/hand.png" width="350">
+    <h1>Comienza el Nertworking</h1>
+    <h3>Presiona el botón <b>"Nuevo chat"</b> para comenzar a crear nuevas <br>
+    redes de contacto para tu empresa o emprendimiento.</h3>
+  </main> -->
+ 
+
+
+
+          
+              
+                         
+                   
+
+
+
+                
+                          
+                                
+                 
+               
+              
+
+
+
+    
+
+
